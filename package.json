@@ -1,0 +1,24 @@
+{
+  "name": "pr-reviewer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "migrate": "node src/migrate.js",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@octokit/app": "^16.1.4",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "parse-diff": "^0.12.0",
+    "pg": "^8.23.1",
+    "zod": "^4.6.5"
+  }
+}
